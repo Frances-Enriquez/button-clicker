@@ -1,0 +1,135 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    width: 900px;
+}
+.biggerbox{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    align-items: center;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    width: 750px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    height: 60px;
+}
+.left-box{
+    margin-left: 100px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+}
+.firstbox{
+    display: flex;
+    width: 410px;
+    border: solid 3px brown;
+    margin-top: 30px;
+    height: 150px;
+}
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 400px;
+    display: flex;
+}
+.secondbox{
+    display: flex;
+    width: 410px;
+    border: solid 3px brown;
+    margin-top: 20px;
+    height: 150px;
+}
+.right-box{
+    width: 200px;
+    display: flex;
+    margin-left: 20px;
+
+}
+.thirdbox{
+    border: solid 3px brown;
+    width: 200px;
+    display: flex;
+    height: 150px;
+    padding: 0%;
+    margin-top: 30px;
+}
+.content2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.defleft{
+    margin: 5px;
+}
+.defright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 300px;
+}
+.you{
+    font-style: bold;
+    font-size: larger;
+}
+.box{
+    display: flex;
+    width: 840px;
+    height: 700px;
+}
+.search{
+    width: 250px;
+    box-shadow: 1px 3px 3px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hghlght{
+    color: brown;
+}
+.btn{
+    width: 90px;
+    background-color:skyblue;
+    box-shadow: 1px 3px 3px black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.btn2{
+    background-color: bisque;
+    box-shadow: 1px 3px 3px black;
+    padding: 2px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn3{
+    background-color:rgb(162, 199, 98);
+    box-shadow: 1px 3px 5px black;
+    width: 150px;
+    margin-top: 0px;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    margin: 0%;
+}
+p{
+    margin: 5px;
+}
+.smaller{
+    font-size: smaller;
+}
